@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ChatSkin" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="165131bfa93" ></w:Config>
+	<e:Image source="checkbox_unselect_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Label text="多人在线聊天室" x="35" y="31" anchorOffsetX="0" width="600.67" anchorOffsetY="0" height="96.67" verticalAlign="middle" textAlign="center" textColor="0xff0a49" bold="true" size="40"/>
+	<e:Label text="当前在线人数:" x="35" y="140" anchorOffsetX="0" width="603.34" anchorOffsetY="0" height="38" textColor="0x000000"/>
+	<e:Label id="lb_online" text="0" x="219.73" y="127.67" textColor="0x33968b" size="40" anchorOffsetX="0" width="116.94" anchorOffsetY="0" height="58.18" verticalAlign="middle" textAlign="center"/>
+	<e:Scroller id="scr_msg" width="613.33" height="714.67" x="24" y="197" anchorOffsetX="0" anchorOffsetY="0" scrollPolicyH="off">
+		<e:Group id="group_msg" anchorOffsetX="0" width="616">
+			<e:layout>
+				<e:VerticalLayout/>
+			</e:layout>
+		</e:Group>
+	</e:Scroller>
+	<e:EditableText id="input_msg" width="397.33" height="142.67" text="输入聊天内容" x="31" y="929" anchorOffsetX="0" anchorOffsetY="0" textColor="0x0a0000" textAlign="left" verticalAlign="top" border="true" bold="false" blendMode="normal" backgroundColor="0xfcf9f9" background="true"/>
+	<e:Button id="btn_ok" label="发送！" x="461" y="939.34" anchorOffsetX="0" width="156" anchorOffsetY="0" height="122"/>
+</e:Skin>

@@ -1,0 +1,15 @@
+{
+  "165131bfa93": {
+    "path": "Chat.ts",
+    "class": "Chat",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAutoLayerMarkEnable": true
+  },
+  "16513414756": {
+    "path": "..\\resource\\eui_skins\\ListMsg.ts",
+    "class": "ListMsg",
+    "parentPath": ""
+  }
+}
